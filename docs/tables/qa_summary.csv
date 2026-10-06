@@ -1,0 +1,15 @@
+category,metric,count,pct_of_records
+dataset,records_total,30116,100.0
+status,PASS,27871,92.545
+status,WARN,2245,7.455
+status,FAIL,0,0.0
+flag,missing_id,0,0.0
+flag,duplicate_id,0,0.0
+flag,invalid_date,0,0.0
+flag,missing_coordinates,0,0.0
+flag,latitude_out_of_range,0,0.0
+flag,longitude_out_of_range,0,0.0
+flag,negative_flux,0,0.0
+flag,missing_flux,1038,3.447
+flag,missing_original_geometry,1207,4.008
+flag,invalid_original_geometry,0,0.0

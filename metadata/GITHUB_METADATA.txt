@@ -1,0 +1,27 @@
+Repository name: methane-imeo-data-engineering
+Owner: marcel-innocentini
+Visibility: public
+Default branch: main
+
+Description:
+Reproducible Python/GeoPandas QA/QC pipeline for public UNEP IMEO MARS satellite methane plume data, with GeoPackage/PostGIS outputs and an illustrated technical report.
+
+Topics:
+methane
+remote-sensing
+earth-observation
+unep
+imeo
+mars
+methane-emissions
+geopandas
+postgis
+qaqc
+reproducible-research
+environmental-data
+
+Release:
+v1.0.0
+
+Release title:
+METHANE v1.0.0 - Reproducible UNEP IMEO MARS QA/QC pipeline and illustrated report

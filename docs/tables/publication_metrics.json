@@ -1,0 +1,26 @@
+{
+  "snapshot_date": "2026-10-06",
+  "plume_records": 30116,
+  "source_records": 4186,
+  "countries": 99,
+  "satellites": 10,
+  "observation_start": "2020-10-29T14:34:04+00:00",
+  "observation_end": "2026-09-05T10:08:06+00:00",
+  "actionable_counts": {
+    "Not Applicable": 13722,
+    "Yes": 8922,
+    "No": 4319,
+    "Not Available": 3153
+  },
+  "notified_counts": {
+    "False": 21376,
+    "True": 8740
+  },
+  "flux": {
+    "non_null_positive": 29058,
+    "q25": 1393.0,
+    "median": 3026.5,
+    "q75": 11000.0,
+    "q95": 73000.0
+  }
+}

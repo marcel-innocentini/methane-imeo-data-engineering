@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software or its derived materials, please cite the technical report below."
+title: "METHANE: Reproducible QA/QC Pipeline for UNEP IMEO MARS Satellite Methane Data"
+type: software
+authors:
+  - family-names: "Innocentini"
+    given-names: "Marcel de Mello"
+    orcid: "https://orcid.org/0009-0006-2409-0946"
+    affiliation: "Agropixel"
+version: 1.0.0
+date-released: 2026-10-06
+url: "https://github.com/marcel-innocentini/methane-imeo-data-engineering"
+repository-code: "https://github.com/marcel-innocentini/methane-imeo-data-engineering"
+license: MIT
+keywords:
+  - methane
+  - satellite remote sensing
+  - UNEP IMEO
+  - MARS
+  - geospatial data engineering
+  - QA/QC
+  - PostGIS
+  - reproducible research
+preferred-citation:
+  type: report
+  title: "A Reproducible QA/QC Pipeline for Public Satellite Methane Plume Data from UNEP IMEO MARS"
+  authors:
+    - family-names: "Innocentini"
+      given-names: "Marcel de Mello"
+      orcid: "https://orcid.org/0009-0006-2409-0946"
+      affiliation: "Agropixel"
+  year: 2026
+  publisher:
+    name: "Zenodo"
+  doi: "10.5281/zenodo.23196446"

@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+application_private/
+docs/report/_render/
+data/raw/*.part
+data/raw/*.zip
+data/raw/unep_plumes/
+data/external/
+data/processed/*.gpkg
+outputs/qa_flags.csv
+outputs/*.png

@@ -1,0 +1,9 @@
+pandas>=2.2
+geopandas>=1.0
+shapely>=2.0
+pyogrio>=0.10
+matplotlib>=3.9
+numpy>=2.0
+psycopg[binary]>=3.2
+pytest>=8.0
+reportlab>=4.2

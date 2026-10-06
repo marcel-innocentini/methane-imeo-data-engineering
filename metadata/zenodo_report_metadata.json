@@ -1,0 +1,50 @@
+{
+  "upload_type": "publication",
+  "publication_type": "report",
+  "publication_date": "2026-10-06",
+  "title": "A Reproducible QA/QC Pipeline for Public Satellite Methane Plume Data from UNEP IMEO MARS",
+  "creators": [
+    {
+      "name": "Innocentini, Marcel de Mello",
+      "affiliation": "Agropixel",
+      "orcid": "0009-0006-2409-0946"
+    }
+  ],
+  "description": "<p>This illustrated technical report presents a compact, reproducible geospatial data-engineering pipeline built around public methane plume and source data from UNEP IMEO's Methane Alert and Response System (MARS). The workflow starts from already processed public detections and demonstrates provenance capture, GeoJSON ingestion, schema normalization, deterministic record-level QA/QC, GeoPackage persistence, a PostgreSQL/PostGIS loading path, automated tests, machine-readable summaries and publication-quality figures.</p><p>The 6 October 2026 snapshot used for validation contains 30,116 plume observations and 4,186 detected sources spanning 99 countries and ten satellite/instrument labels. Under the defined structural QA rules, 27,871 records are classified PASS, 2,245 WARN and none FAIL. The project explicitly does not implement atmospheric methane retrieval, radiative transfer, plume-detection machine learning, or an alternative to MARS.</p>",
+  "access_right": "open",
+  "license": "cc-by-nc-sa-4.0",
+  "keywords": [
+    "methane",
+    "satellite remote sensing",
+    "UNEP IMEO",
+    "Methane Alert and Response System",
+    "MARS",
+    "Eye on Methane",
+    "geospatial data engineering",
+    "QA/QC",
+    "GeoPandas",
+    "PostGIS",
+    "reproducible research",
+    "environmental data"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/marcel-innocentini/methane-imeo-data-engineering",
+      "relation": "documents",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://methanedata.unep.org/download-dataset",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    }
+  ],
+  "references": [
+    "United Nations Environment Programme (UNEP). Methane Alert and Response System (MARS). https://www.unep.org/topics/energy/methane/methane-alert-and-response-system-mars",
+    "United Nations Environment Programme (UNEP). UNEP IMEO Technical Documentation for Methane Satellite Detection and Quantification. September 2024. https://wedocs.unep.org/handle/20.500.11822/46241",
+    "UNEP IMEO. Data dictionary: MARS methane plumes and sources. https://methanedata.unep.org/dict-mars-plumes",
+    "TROPOMI. Methane (L2__CH4___) product documentation. https://www.tropomi.eu/data-products/methane",
+    "European Space Agency. Copernicus Sentinel-5P TROPOMI Level 2 Methane products, Version 02. DOI: 10.5270/S5P-3lcdqiv"
+  ],
+  "notes": "Independent technical demonstration. Contains data-derived figures and summaries based on UNEP IMEO Eye on Methane / MARS public data downloaded 6 October 2026. This work is not produced by or endorsed by UNEP or IMEO."
+}

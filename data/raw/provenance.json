@@ -1,0 +1,14 @@
+{
+  "source": "UNEP IMEO Eye on Methane - MARS detected plumes and sources",
+  "source_url": "https://unepazeconomyadlsstorage.blob.core.windows.net/public/unep_methanedata_detected_plumes_geojson.zip",
+  "retrieved_utc": "2026-10-06T17:44:13.323690+00:00",
+  "sha256": "3755cc5206f6c60c770fe589d527a98f73779e16fe752f40dda6e120935ed03e",
+  "archive_bytes": 54940454,
+  "license": "CC BY-NC-SA 4.0 (see extracted LICENSE-CC-BY-NC-SA.txt)",
+  "files": [
+    "LICENSE-CC-BY-NC-SA.txt",
+    "definitions_detected_plumes_sources.pdf",
+    "unep_methanedata_detected_plumes.geojson",
+    "unep_methanedata_detected_sources.geojson"
+  ]
+}
